@@ -33,6 +33,7 @@ public class ToDoActivity extends Activity {
 		lvItems.setAdapter(itemsAdapter);
 		items.add("First Item");
 		items.add("Second Item");
+		setupListViewListener();
 	}
 
 	@Override
